@@ -22,11 +22,11 @@ lvim.plugins = {
       "typescriptreact",
       "typescript.tsx",
     },
-    opt = true,
+    lazy = true,
     event = "BufReadPre",
     before = "williamboman/nvim-lsp-installer",
   },
-
+  { "folke/tokyonight.nvim" },
 
   { 'jose-elias-alvarez/typescript.nvim' },
   { 'mg979/vim-visual-multi' },
@@ -46,7 +46,6 @@ lvim.plugins = {
   { "sainnhe/sonokai" },
   { "sainnhe/edge" },
   { "lunarvim/horizon.nvim" },
-  { "tomasr/molokai" },
   { "ayu-theme/ayu-vim" },
 
   {

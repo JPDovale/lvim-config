@@ -1,3 +1,5 @@
+require('user.monokai')
+
 local themes = {
   gruvbox = "gruvbox",
   rose_pine = "rose-pine",
@@ -15,11 +17,13 @@ local themes = {
   sonokai = "sonokai",
   edge = "edge",
   ayu = "ayu",
-  dracula = "dracula"
+  dracula = "dracula",
+  monokai_vibrant = "monokai_vibrant",
+  nord = "nord"
 }
 
 lvim.transparent_window = false
-lvim.colorscheme = themes.lunar
+lvim.colorscheme = themes.tokyonight_night
 
 local extra_opts = {
   sonokai = {
