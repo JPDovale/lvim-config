@@ -11,6 +11,7 @@ lvim.plugins = {
       })
     end,
   },
+  { "tpope/vim-abolish" },
 
   {
     "jose-elias-alvarez/nvim-lsp-ts-utils",
