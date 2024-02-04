@@ -9,6 +9,10 @@ lvim.keys.normal_mode["<S-x>"] = ":BufferKill<CR>"
 lvim.keys.normal_mode["<C-d>"] = "<C-d>zz"
 lvim.keys.normal_mode["<C-u>"] = "<C-u>zz"
 lvim.keys.normal_mode["<C-a>"] = "ggVG"
+lvim.keys.normal_mode["<C-/>"] = "gcc"
+lvim.keys.visual_mode["<C-/>"] = "gcc"
+lvim.keys.insert_mode["<C-/>"] = "gcc"
+lvim.keys.insert_mode['cosnt'] = 'const<ESC>i'
 vim.opt.relativenumber = true
 
 vim.keymap.set('n', 'gn', ":tabe %<CR>")

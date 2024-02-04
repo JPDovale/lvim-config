@@ -1,5 +1,3 @@
-require('user.monokai')
-
 local themes = {
   gruvbox = "gruvbox",
   rose_pine = "rose-pine",

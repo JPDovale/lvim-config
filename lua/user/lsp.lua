@@ -4,7 +4,6 @@ local ts = require('typescript')
 -- orthographic verification
 vim.opt.spell = true
 vim.opt.spelllang = 'en_us,pt_br'
-vim.api.nvim_set_keymap('i', 'cosnt', 'const<ESC>i', { noremap = true })
 
 -- configure tsserver server manually.
 vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "tsserver" })
